@@ -104,3 +104,14 @@ input{
         transform: translateY(-20px)
     }
 }
+
+@media (max-width: 600px)
+{
+    .container
+    {
+        height: 80vh;
+        width: 45vh;
+        margin-top: 10vh;
+        border-radius: 15px;
+    }
+}
